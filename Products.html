@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" Content="IE=edge">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+
+        <link rel="stylesheet" href="Products.css">
+
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css.">
+
+       
+        <title> Luo Ghe Manufacturing Company</title>
+    </head>
+
+    <body>
+        <button class="back" id="back">Go Back</button>
+        <script src="script.js"></script>
+        <div class="container">
+            <header> LOU GHE MANUFACTURING COMPANY </header>
+
+            <form action="insert.php" method="post">
+                <div class="form first">
+                    <div class="details personal">
+                        <span class="title"> PRODUCTS </span>
+
+                        <div class="fields">
+                            <div class="input-field">
+                                <label> Product Name</label>
+                                <input type="text" name="name" placeholder="Enter product name" required autocomplete="off">
+                            </div>
+
+                            <div class="input-field">
+                                <label>Product Quantity </label>
+                                <input type="number" name="quantity" placeholder="Enter quantity" required autocomplete="off">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <button class="button"> Submmit </button>
+            </form>
+
+        </div>
+    </body>
+</html>
