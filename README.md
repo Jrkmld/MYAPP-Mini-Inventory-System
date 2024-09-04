@@ -15,7 +15,6 @@ Xampp - v3.3
 mysql - 127.0.0
 vscode - 1.92
 - Device (desktop or Lapto)
-- [Any other requirements]
 
 # Installation
 
